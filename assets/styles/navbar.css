@@ -76,16 +76,20 @@ header .container nav .search img{
 }
 @media (max-width: 1100px) {
   header .container nav ul {
-    display: none;
+    display: block;
     position: absolute;
-    top: 70px;
-    right: 0;
+    top: 10px;
+    right: 10px;
+
     padding: 15px;
   }
 }
 header .container nav input {
   appearance: none;
   
+}
+header .container nav .menu img {
+  cursor: pointer;
 }
 
 header nav input:checked ~ ul {
@@ -96,6 +100,8 @@ header nav input:checked ~ ul {
     display:none;
   }
 }
+
+
 
 
 
