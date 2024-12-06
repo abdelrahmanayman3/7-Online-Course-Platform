@@ -68,15 +68,10 @@ border: 1px solid #00000028;
 border-radius: 6px;
 color:#00000028 ;
 }
-header .container nav .search img{
-  position: relative;
-  right: 30px;
-  top: 5px;
-  
-}
+
 @media (max-width: 1100px) {
   header .container nav ul {
-    display: block;
+    display: none;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -92,14 +87,7 @@ header .container nav .menu img {
   cursor: pointer;
 }
 
-header nav input:checked ~ ul {
-    display: block;
-  }
-  @media (min-width: 1201px) {
-  header nav .menu {
-    display:none;
-  }
-}
+
 
 
 
