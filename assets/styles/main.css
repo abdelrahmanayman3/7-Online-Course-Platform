@@ -28,7 +28,7 @@ a{
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+  width: 1170px;
   }
 }
 section main .hero {
@@ -38,5 +38,28 @@ section main .hero {
     background-size: cover;
     background-position: center;
 }
+section main .hero .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: calc(100% - 73.2px);
+}
+section main .hero .container h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 69px;
+    color: var(--black);
+}
 
-
+section main .hero .container .buttoms .button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    border: 1px solid transparent;
+    background-color: var(--white);
+    padding: 10px;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 0px gray;
+}
