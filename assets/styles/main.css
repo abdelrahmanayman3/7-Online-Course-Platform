@@ -63,3 +63,9 @@ section main .hero .container .buttoms .button{
     border-radius: 25px;
     box-shadow: 4px 4px 4px 0px gray;
 }
+section .container .photo  img{
+margin: 50px 0px;
+width: 100%;
+}
+
+
