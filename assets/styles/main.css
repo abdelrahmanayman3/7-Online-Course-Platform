@@ -90,3 +90,32 @@ section .container .expert .instructors p {
   padding: 5px;
   font-size: 14px;
 }
+.container h2{
+  margin-top: 100px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+.container .social{
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.container .social img{
+  padding: 20px;
+  width:calc(100% / 4);
+
+}
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+footer .container .products{
+  display: flex;
+  justify-content: space-between;
+
+  gap: 50px;
+}
