@@ -1,18 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
-    --black:black;
-    --white:white;
+:root {
+  --black: black;
+  --white: white;
 }
-a{
-    
-    text-decoration: none;
-    text-transform: capitalize;
+a {
+  text-decoration: none;
+  text-transform: capitalize;
 }
-header{
+header {
   background-color: var(--white);
 }
 .container {
@@ -35,46 +34,45 @@ header{
   }
 }
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header .container .logo{
-    display: flex;
-padding:20px 5px;
+header .container .logo {
+  display: flex;
+  padding: 20px 5px;
 }
-header .container .logo a{
-    color: var(--black);
-    font-size: 20px;
-    padding: 5px;
-    font-family: sans-serif;
+header .container .logo a {
+  color: var(--black);
+  font-size: 20px;
+  padding: 5px;
+  font-family: sans-serif;
 }
-header .container nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
-header .container nav ul li{
-    padding: 20px;
-    font-family: sans-serif;
+header .container nav ul li {
+  padding: 20px;
+  font-family: sans-serif;
 }
-header .container nav ul li a{
-    color: var(--black);
+header .container nav ul li a {
+  color: var(--black);
 }
 header .container nav .search input {
-   font-family: sans-serif;
-    padding: 10px;
-border: 1px solid #00000028;
-border-radius: 6px;
-color:#00000028 ;
+  font-family: sans-serif;
+  padding: 10px;
+  border: 1px solid #00000028;
+  border-radius: 6px;
+  color: #00000028;
 }
- header .container nav .search img{
+header .container nav .search img {
   position: relative;
   right: 30px;
   top: 5px;
-  
-} 
-@media (max-width: 1100px) {
+}
+@media (max-width: 991px) {
   header .container nav ul {
     display: none;
     position: absolute;
@@ -83,14 +81,9 @@ color:#00000028 ;
     padding: 15px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 992px) {
+  header .container nav ul {
+    display: flex;
+    position: static;
+  }
+}

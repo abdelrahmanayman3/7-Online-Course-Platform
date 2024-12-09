@@ -1,17 +1,16 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
-    --black:black;
-    --white:white;
-    --gray:#DBDBDB;
+:root {
+  --black: black;
+  --white: white;
+  --gray: #dbdbdb;
 }
-a{
-    
-    text-decoration: none;
-    text-transform: capitalize;
+a {
+  text-decoration: none;
+  text-transform: capitalize;
 }
 .container {
   padding: 0 15px;
@@ -29,78 +28,65 @@ a{
 }
 @media (min-width: 1200px) {
   .container {
-  width: 1170px;
+    width: 1170px;
   }
 }
 section main .hero {
-    background-image: url(../images/hero.webp);
-    height: calc(100vh - 73.2px);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../images/hero.webp);
+  height: calc(100vh - 73.2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-section main .hero .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: calc(100% - 73.2px);
+section main .hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: calc(100% - 73.2px);
 }
-section main .hero .container h1{
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 69px;
-    color: var(--black);
-}
-
-section main .hero .container .buttoms .button{
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    border: 1px solid transparent;
-    background-color: var(--white);
-    padding: 10px;
-    width: 150px;
-    border-radius: 25px;
-    box-shadow: 4px 4px 4px 0px gray;
-}
-section .container .photo  img{
-margin:50px 0px 0px 0px;
-width: 100%;
-}
-section .container .expert{
-    display:flex ;
-    align-items: center;
-    justify-content: space-around;
-}
-section .container .expert .instructors{
-    align-content: center;
-    width: 350px;
-    height: 300px;
-    margin:20px 10px;
-    border:1px solid transparent ;
-    border-radius: 50px;
-    padding: 10px;
-    background-color: #DBDBDB;
-    font-family: sans-serif;
-    
-    box-shadow: 10px 10px 10px  gray ;
-
-}
-section .container .expert .instructors img{
-    position: relative;
-    bottom: 5px;
-    left: 110px;
-}
-section .container .expert .instructors h3{
-    position: relative;
-    left: 50px;
-    font-size: 20px;
-}
-section .container .expert .instructors p{
-    font-size: 14px;
-    padding: 5px;
+section main .hero .container h1 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 69px;
+  color: var(--black);
 }
 
-
-
+section main .hero .container .buttoms .button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  border: 1px solid transparent;
+  background-color: var(--white);
+  padding: 10px;
+  width: 150px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 4px 0px gray;
+}
+section .container .photo img {
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+}
+section .container .expert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .container .expert .instructors {
+  flex-grow: 1;
+  width: 250px;
+  margin: 20px 10px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  padding: 40px;
+  background-color: #dbdbdb;
+  box-shadow: 10px 10px 10px gray;
+  text-align: center;
+}
+section .container .expert .instructors h3 {
+  font-size: 20px;
+}
+section .container .expert .instructors p {
+  padding: 5px;
+  font-size: 14px;
+}
